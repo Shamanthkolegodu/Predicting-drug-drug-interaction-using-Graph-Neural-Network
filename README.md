@@ -26,12 +26,11 @@ representing drug-drug interactions.
     - Hits : On validation set
     ![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Images/table.png)
 
+* Based on the test metrics, we see that SAGE performs the best on drug-drug interaction, closely followed by DGCNN
+
 * Hits@100 for test dataset for various models
     - ![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Images/resultsp_plot.png)
 
-
-
-* Based on the test metrics, we see that SAGE performs the best on drug-drug interaction, closely followed by DGCNN
 
 ### What are the remaining portions in this project
 
