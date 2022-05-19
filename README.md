@@ -17,13 +17,19 @@ representing drug-drug interactions.
 
 ## Overall design or approach in a free hand diagram
 
-![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Design.png)
+![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Images/Design.png)
 
 ## Final results
 * Metric :
     - Loss - BCEWithLogitsLoss
     - Accuracy
     - Hits : On validation set
+    ![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Images/table.png)
+
+* Hits@100 for test dataset for various models
+    - ![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Images/resultsp_plot.png)
+
+
 
 * Based on the test metrics, we see that SAGE performs the best on drug-drug interaction, closely followed by DGCNN
 
@@ -41,4 +47,4 @@ representing drug-drug interactions.
 * DGCNN: Disordered Graph Convolutional Neural Network Based on the Gaussian Mixture Model by Bo Wu, Yang Liu, Bo Lang, Lei Huang
 * Semi-Supervised Classification with Graph Convolutional Networks by Semi-Supervised Classification with Graph Convolutional Networks
 
-##### Part of Network Analysis and Mining course @PES University
+##### Part of Network Analysis and Mining course 2022 @PES University
