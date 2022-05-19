@@ -15,6 +15,8 @@
 representing drug-drug interactions. 
 * Source- [link](https://ogb.stanford.edu/docs/linkprop/#ogbl-ddi)
 
+## Overall design or approach in a free hand diagram
 
+![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Design.png)
 
 ##### Part of Network Analysis and Mining course @PES University
