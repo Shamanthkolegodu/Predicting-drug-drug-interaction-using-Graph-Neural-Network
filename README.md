@@ -19,4 +19,26 @@ representing drug-drug interactions.
 
 ![alt text](https://github.com/Shamanthkolegodu/Predicting-drug-drug-interaction-using-Graph-Neural-Network/blob/main/Design.png)
 
+## Final results
+* Metric :
+    - Loss - BCEWithLogitsLoss
+    - Accuracy
+    - Hits : On validation set
+
+* Based on the test metrics, we see that SAGE performs the best on drug-drug interaction, closely followed by DGCNN
+
+### What are the remaining portions in this project
+
+* Currently, we have not used any node embeddings initially. Exploring Deepwalk and Node2Vec for node embeddings and comparing results is yet to be done.
+
+### Top few learning
+* Given the different techniques and implementations of Link Prediction - GraphSAGE, GCN , DGCNN, GIN – Putting them all together into one framework so that we don’t have to re-code train, test and evaluation based on different formats of implementation.
+* Fascinating to model and learn the inner workings of drug-drug interactions via Graph Neural Networks.
+* Key choice of evaluation metrics, overcoming hurdles of compute resource shortage.
+
+### References
+* Link Prediction Based on Graph Neural Network by Muhan Zhang, Yixin Chen
+* DGCNN: Disordered Graph Convolutional Neural Network Based on the Gaussian Mixture Model by Bo Wu, Yang Liu, Bo Lang, Lei Huang
+* Semi-Supervised Classification with Graph Convolutional Networks by Semi-Supervised Classification with Graph Convolutional Networks
+
 ##### Part of Network Analysis and Mining course @PES University
